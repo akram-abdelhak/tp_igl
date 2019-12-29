@@ -6,9 +6,11 @@
 
 	<title> Scholly </title>
 	<link rel="stylesheet" href="/css/app.css">
+	<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    <link href="/fontawsome/css/all.css" rel="stylesheet">
 </head>
 
-<body class="font-sans">
+<body >
 	<div id="app">
 
 						<router-view></router-view>

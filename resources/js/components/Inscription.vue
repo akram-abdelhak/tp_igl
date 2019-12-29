@@ -48,8 +48,8 @@
       </div>
 
       <div class="flex flex-col mb-6 md:w-full">
-        <label class="mb-2  font-bold text-lg text-grey-darkest" for="password">Mot de passe</label>
-        <input class="rounded-lg border py-2 px-3 text-grey-darkest" type="password" name="password" id="password">
+        <label class="mb-2  font-bold text-lg text-grey-darkest" for="c_password">Mot de passe</label>
+        <input class="rounded-lg border py-2 px-3 text-grey-darkest" type="password" name="c_password" id="c_password">
       </div>
 
       <button class="rounded-lg block bg-blue-dark hover:bg-red text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Crée un compte </button>
