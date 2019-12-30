@@ -5,6 +5,8 @@ import Signin from './components/Inscription';
 import Insc from './components/InscriptionPDG';
 import Layout from './components/Layout';
 import Accueil from './components/Accueil';
+import logout from './components/Deconnexion';
+import Success from './components/Success';
 
 
 export default {
@@ -22,6 +24,14 @@ export default {
         {
             path: '/Inscription',
             component: Signin
+        },
+        {
+            path: '/Deconnexion',
+            component: logout
+        },
+        {
+            path: '/InscrSuccess',
+            component: Success
         },
         
         {
