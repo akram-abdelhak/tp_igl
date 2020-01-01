@@ -4,10 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title> Scholly </title>
+	<title> Schoolly </title>
 	<link rel="stylesheet" href="/css/app.css">
 	<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
     <link href="/fontawsome/css/all.css" rel="stylesheet">
+
 </head>
 
 <body >

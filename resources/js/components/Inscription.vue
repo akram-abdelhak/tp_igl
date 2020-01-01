@@ -48,11 +48,11 @@
       </div>
 
       <div class="flex flex-col mb-6 md:w-full">
-        <label class="mb-2  font-bold text-lg text-grey-darkest" for="c_password">Mot de passe</label>
+        <label class="mb-2  font-bold text-lg text-grey-darkest" for="c_password">Confirmer le mot de passe</label>
         <input class="rounded-lg border py-2 px-3 text-grey-darkest" type="password" v-model="c_password" id="c_password">
       </div>
 
-      <button class="rounded-lg block bg-blue-dark hover:bg-red text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Crée un compte </button>
+      <button class="rounded-lg block bg-blue-dark hover:bg-green text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Crée un compte </button>
     </form>
     <a class="block w-full text-center no-underline text-sm text-grey-dark hover:text-grey-darker" href="/Connexion">Connexion ?</a>
   </div>
@@ -89,7 +89,9 @@ export default {
 
         })
         .catch((error)=>{
-            console.log(error);
+             console.log(error);
+             localStorage.removeItem('token');
+              window.alert(error.message);
             
 
         } )
