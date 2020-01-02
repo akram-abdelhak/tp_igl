@@ -53,7 +53,7 @@ export default {
             let id_modif= document.getElementById("mod").value;
             console.log(id_modif);
             localStorage.setItem('id_abs',id_modif);
-            this.$router.push('/SuccessJustification');
+            this.$router.push('/Addjustification');
 
 
         }
