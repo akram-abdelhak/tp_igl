@@ -115,7 +115,7 @@ export default {
                  //                axios.post('/InscriptionAdd',{lastName,firstName,matricule,address,city,Numero,email,photo:document.getElementById("photo").value,file1:document.getElementById("file1").value,file2:document.getElementById("file2").value,codepostal}, { headers: {  'Authorization': 'Bearer ' + token }}).then((Response)=>{
        axios.post('/InscriptionAdd',formData, { headers: { 'Content-Type': 'multipart/form-data' }}).then((Response)=>{
        console.log(Response);
-        this.$router.push('/InscrSuccess');
+        this.$router.push('/SuccessInscription');
 })
         .catch((error)=>{
               window.alert("error");
