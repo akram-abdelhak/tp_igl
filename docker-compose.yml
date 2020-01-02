@@ -14,8 +14,6 @@ services:
     environment:
       - "DB_HOST=database"
       - "REDIS_HOST=cache"
-      - "MYSQL_ROOT_PASSWORD="
-
   # The Web Server
   web:
     container_name: nginx_server
@@ -25,7 +23,7 @@ services:
     volumes:
       - ./storage/logs/:/var/log/nginx
     ports:
-      - 8990:80
+      - 80:80
 
   # The Database
   database:
@@ -34,12 +32,12 @@ services:
     volumes:
       - dbdata:/var/lib/mysql
     environment:
-      - "MYSQL_DATABASE=Baly"
+      - "MYSQL_DATABASE=TPigl"
       - "MYSQL_USER=phpmyadmin"
       - "MYSQL_PASSWORD=phpmyadmin"
-      - "MYSQL_ROOT_PASSWORD="
+      - "MYSQL_ROOT_PASSWORD=phpmyadmin"
     ports:
-      - 8991:3306
+      - 3306:3306
 
     # redis
   cache:
