@@ -40,13 +40,10 @@ export default {
           let formData = new FormData();
           formData.append('id_abs', this.abs);
           formData.append('doc', this.file);
-       //  console.log(this.file);
-       //  window.alert(abs);
-      //   console.log(formData.file);
-
+      
       axios.post('/absence/justification',formData, { headers: { 'Content-Type': 'multipart/form-data' }}).then((Response)=>{
         console.log(Response);
-     //   this.$router.push('/InscrSuccess');
+      this.$router.push('/SuccessJustification');
 })
         .catch((error)=>{
               window.alert("error");
