@@ -12,8 +12,14 @@ class ExampleTest extends TestCase
      *
      * @return void
      */
-    public function testBasicTest()
+    public function BasicTest()
     {
-        $this->assertTrue(true);
+       $response =  $this->call('GET', '/');
+
+        $this->assertStatus(200);
+       
+        $response->dumpHeaders();
+
+        $response->dump();
     }
 }

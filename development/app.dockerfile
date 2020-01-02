@@ -20,6 +20,8 @@ RUN chown -R www-data:www-data \
         /var/www/storage \
         /var/www/bootstrap/cache
 
+RUN chmod -R 777 /var/www/storage
+
 RUN  apt-get install -y libmcrypt-dev \
         libmagickwand-dev --no-install-recommends \
         && pecl install mcrypt-1.0.2 \
