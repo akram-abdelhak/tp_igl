@@ -5,18 +5,16 @@
       <div class="container mx-auto px-8">
           <header class="flex flex-col sm:flex-row items-center justify-between px-6 mt-6 relative md:w-full ">
            <div class="flex flex-col sm:flex-row items-center ">
-             <router-link to="/">
+             <router-link to="/Accueil">
                 <img alt="logo" src="/images/ghost-green.png" height="100" width="100" >
             </router-link>
-                <h3 class="text-5xl font-bold uppercase text-blue-darker  justify-center"> Scholly</h3>
+                <h3 class="text-4xl font-bold uppercase text-blue-darker  justify-center"> Schoolly</h3>
             </div>
               <nav class="hidden md:flex text-lg">
-                  <a href="#" class="text-blue-darker bg-green hover:bg-green rounded-lg  py-3 px-6"><i class="fas fa-home"></i> Home</a>
-                  <a href="#" class="text-blue-darker hover:bg-green rounded-lg py-3 px-6"><i class="fas fa-calendar"></i> Absences</a>
-                  <a href="#" class="text-blue-darker hover:bg-green rounded-lg py-3 px-6"><i class="fas fa-tools"> </i> Inscription</a>
-                  <a href="#" class="text-blue-dark hover:bg-green rounded-lg py-3 px-6">Contact</a>
-                  <a href="#" class="text-blue-dark hover:bg-green rounded-lg py-3 px-6">FAQ</a>
-                  <a href="#" class="text-blue-dark hover:bg-green rounded-lg py-3 px-6">Sign Up</a>
+                   <router-link to="/Accueil" class="text-blue-darker hover:bg-green rounded-lg  py-3 px-6"><i class="fas fa-home"></i> Home</router-link>
+                   <router-link to="/Absences" class="text-blue-darker hover:bg-green rounded-lg py-3 px-6"><i class="fas fa-calendar"></i> Absences</router-link>
+                   <router-link to="/InscriptionPDG" class="text-blue-darker hover:bg-green rounded-lg py-3 px-6"><i class="fas fa-tools"> </i> Inscription</router-link>
+                   <router-link to="/Deconnexion" class="text-blue-darker hover:bg-green rounded-lg py-3 px-6"><i class="fas fa-sign-out-alt"></i> Déconnexion</router-link>
               </nav>
               <button class="flex md:hidden flex-col absolute top-0 right-0 p-4 mt-5">
               </button>

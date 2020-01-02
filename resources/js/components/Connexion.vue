@@ -19,7 +19,7 @@
         <label class="mb-2  font-bold text-lg text-grey-darkest" for="password">Mot de passe</label>
         <input class="rounded-lg border py-2 px-3 text-grey-darkest" type="password" v-model="password" id="password">
       </div>
-      <button class="rounded-lg block bg-blue-dark hover:bg-red text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Connexion </button>
+      <button class="rounded-lg block bg-blue-dark hover:bg-green text-white uppercase text-lg mx-auto p-4 rounded" type="submit">Connexion </button>
     </form>
         <a class="block w-full text-center no-underline text-sm text-grey-dark hover:text-grey-darker" href="/Inscription">Vous n'avez pas encore de compte ? Inscrivez-vous!</a>
 
@@ -54,7 +54,8 @@ export default {
         .catch((error)=>{
              localStorage.removeItem('token');
               console.log(error);
-              reject(error);            
+              window.alert(error.message);
+            
 
         } )
         

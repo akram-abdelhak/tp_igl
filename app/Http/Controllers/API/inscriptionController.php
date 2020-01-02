@@ -42,7 +42,7 @@ class inscriptionController extends Controller
             'matricule' =>['required' , "string","min:6"] ,
             'Numero' => ['required','string','size:10' ],
             'codepostal' => ['required','numeric'] , 
-            'AnnéeEude' => ['string'] , 
+            'AnnéeEtude' => ['string'] , 
             'address' => ['required', 'string'] ,
             'file1'=>['required' ] , 
             'file2'=>['required' ] , 
