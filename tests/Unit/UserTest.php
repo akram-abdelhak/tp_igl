@@ -13,9 +13,14 @@ class UserTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testLogin()
     {
-        $this->get("/") ; 
-        $this->assertTrue(true);
+     
+        $response = $this->postJson('/api/login', ['email' => 'ha_akli@esi.dz', 'password'=>'amelakli']);
+
+        $response
+            ->assertJson([
+                'success' => true,
+            ]);
     }
 }

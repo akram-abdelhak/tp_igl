@@ -23,10 +23,10 @@ $factory->define(User::class, function (Faker $faker) {
         'niveau'=> ($faker->numberBetween(1,2))."CP" ,
         'groupe' => $faker->numberBetween(1,10) , 
         'email_verified_at' => now(),
-        'password' => bcrypt ($faker->password ), 
+        'password' => $faker->password , 
         'remember_token' => Str::random(10),
         'telephone' => $faker->e164PhoneNumber , 
-        'matricule' => ($faker->numberBetween(16,19))."/".($faker->numberBetween(0000,0300)) ,  
+        'matricule' => ($faker->numberBetween(16,19))."/".($faker->numberBetween(100,0300)) ,  
 
     ];
 });
