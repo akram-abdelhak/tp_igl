@@ -1,0 +1,296 @@
+{
+  "id": "34901b2a-4a21-4333-8109-904819bb5b7d",
+  "version": "2.0",
+  "name": "Test3",
+  "url": "http://127.0.0.1:8000/",
+  "tests": [{
+    "id": "7e4c2eb2-7a74-4487-a69e-1d1a30006c10",
+    "name": "Affichage_Absences",
+    "commands": [{
+      "id": "2f33af04-5930-4793-b5b6-9986fd856a27",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/Connexion",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "796b3c21-4b44-4eec-82d9-5c792b81311f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e93413df-f0b3-40a3-b557-2ccb18246927",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "836d39ae-1f41-4f42-89ac-6a4121a1d8ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hr_smida@esi.dz"
+    }, {
+      "id": "44afbc0a-c83c-4162-b99d-e1b1ae5d2b41",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "505736b4-f586-4472-9248-d680fbe16483",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "niceniceone"
+    }, {
+      "id": "7dab85ee-eb9e-4d01-a4a2-474bd9ceef2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-blue-dark",
+      "targets": [
+        ["css=.bg-blue-dark", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96542805-9920-4a42-a183-e698f9db0640",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Absences",
+      "targets": [
+        ["linkText=Absences", "linkText"],
+        ["css=.hover\\3A bg-green:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Absences')]", "xpath:link"],
+        ["xpath=//div[@id='app']/body/div/div/div/header/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Absences')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' Absences')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07714c95-68f2-4a28-9e0c-147d7e2408f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Inscription",
+      "targets": [
+        ["linkText=Inscription", "linkText"],
+        ["css=.text-blue-darker:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inscription')]", "xpath:link"],
+        ["xpath=//div[@id='app']/body/div/div/div/header/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/InscriptionPDG')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,' Inscription')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5764fde6-241c-428f-ba95-d7c872f49ed2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Inscription",
+      "targets": [
+        ["linkText=Inscription", "linkText"],
+        ["css=.text-blue-darker:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Inscription')]", "xpath:link"],
+        ["xpath=//div[@id='app']/body/div/div/div/header/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/InscriptionPDG')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,' Inscription')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15b1f9a3-e8c5-4aa2-8ea1-99cff9d3b3d3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Inscription",
+      "targets": [
+        ["linkText=Inscription", "linkText"],
+        ["css=.router-link-exact-active", "css:finder"],
+        ["xpath=//a[contains(text(),'Inscription')]", "xpath:link"],
+        ["xpath=//div[@id='app']/body/div/div/div/header/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/InscriptionPDG')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,' Inscription')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0692ef1-dbb3-4a00-8b5b-795b6b013849",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.text-blue-darker:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='app']/body/div/div/div/header/nav/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Accueil')])[2]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22b3b047-92e1-43a6-ada6-55c882ccc86d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Absences",
+      "targets": [
+        ["linkText=Absences", "linkText"],
+        ["css=.hover\\3A bg-green:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Absences')]", "xpath:link"],
+        ["xpath=//div[@id='app']/body/div/div/div/header/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Absences')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' Absences')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63be99d9-d46b-4d8f-b86a-939b7b0216de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Absences",
+      "targets": [
+        ["linkText=Absences", "linkText"],
+        ["css=.router-link-exact-active", "css:finder"],
+        ["xpath=//a[contains(text(),'Absences')]", "xpath:link"],
+        ["xpath=//div[@id='app']/body/div/div/div/header/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Absences')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' Absences')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bb3b125-f8cf-477a-864d-32c810aeffa8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-b:nth-child(3) .fas",
+      "targets": [
+        ["css=.border-b:nth-child(3) .fas", "css:finder"],
+        ["xpath=//table[@id='table']/tbody/tr[3]/td[8]/form/button/i", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[8]/form/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f84fec3-8839-4379-a104-8ba60f6aea70",
+      "comment": "",
+      "command": "click",
+      "target": "id=doc",
+      "targets": [
+        ["id=doc", "id"],
+        ["name=doc", "name"],
+        ["css=#doc", "css:finder"],
+        ["xpath=//input[@id='doc']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/div/div/div/main/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "480ed0ea-9867-4937-a350-6d41d9635c7d",
+      "comment": "",
+      "command": "type",
+      "target": "id=doc",
+      "targets": [
+        ["id=doc", "id"],
+        ["name=doc", "name"],
+        ["css=#doc", "css:finder"],
+        ["xpath=//input[@id='doc']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/div/div/div/main/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\ghost-icon-black (2).jpg"
+    }, {
+      "id": "fca8ceba-d76c-4011-92a8-7c0b0bae6005",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-blue-dark",
+      "targets": [
+        ["css=.bg-blue-dark", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/body/div/div/div/main/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9967e45c-1d4d-4246-ad6a-36216654d227",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-white",
+      "targets": [
+        ["css=.text-white", "css:finder"],
+        ["xpath=//div[@id='app']/body/div/div/div/main/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "715ed6c5-5c44-475e-b26e-9bc146a5813b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Absences",
+      "targets": [
+        ["linkText=Absences", "linkText"],
+        ["css=.hover\\3A bg-green:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Absences')]", "xpath:link"],
+        ["xpath=//div[@id='app']/body/div/div/div/header/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Absences')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,' Absences')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34ee21b3-de73-4101-94e6-15ccb6cac838",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Déconnexion",
+      "targets": [
+        ["linkText=Déconnexion", "linkText"],
+        ["css=.text-blue-darker:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Déconnexion')]", "xpath:link"],
+        ["xpath=//div[@id='app']/body/div/div/div/header/nav/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Deconnexion')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,' Déconnexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5c2c7449-9768-401c-828d-6e89b9c46efd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7e4c2eb2-7a74-4487-a69e-1d1a30006c10"]
+  }],
+  "urls": [],
+  "plugins": []
+}
